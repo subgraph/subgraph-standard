@@ -1,0 +1,14 @@
+Section: metapackages
+Priority: standard
+Homepage: https://subgraph.com/sgos
+Standards-Version: 3.9.2
+
+Package: subgraph-standard
+Version: 1.8
+Maintainer: David McKinney <mckinney@subgraph.com>
+Build-Depends: cdbs (>= 0.4.90),
+               debhelper (>= 8)
+Depends: subgraph-desktop-gnome, gnome-session-subgraph, subgraph-defaults, paxrat, subgraph-metaproxy, subgraph-tor-config, gnome-shell-extension-torstatus, subgraph-ferm-config, subgraph-networkmanager-config, subgraph-environment-config, subgraph-grub-config, subgraph-pulse-config, oz-daemon, subgraph-oz-profiles, gnome-shell-extension-ozshell, fw-daemon, fw-daemon-gnome, macouflage, subgraph-archive-keyring, subgraph-apt-config, linux-headers-grsec-amd64-subgraph, linux-image-grsec-amd64-subgraph, apparmor-profiles-subgraph, roflcoptor
+Architecture: all
+Description: Subgraph standard metapackage.
+ Metapackage to install standard set of Subgraph applications and configs.
