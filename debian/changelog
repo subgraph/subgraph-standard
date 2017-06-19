@@ -1,3 +1,9 @@
+subgraph-standard (1.9.0-1) unstable; urgency=medium
+
+  * Added subgraph-sysctl-config to dependencies
+
+ -- David McKinney <mckinney@subgraph.com>  Mon, 19 Jun 2017 19:28:15 +0000
+
 subgraph-standard (1.8.0-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
